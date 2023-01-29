@@ -7,15 +7,15 @@ To get started with the app, follow these simple steps:
 Clone the repository: git clone https://github.com/Harishh07/Angular-Book-App.git <br>
 Install dependencies: npm install <br>
 # Dependencies
-Bootstrap: <br>
+# Bootstrap: <br>
 npm install @ng-bootstrap/ng-bootstrap <br>
 <br>
-Font Awesome
-npm install @fortawesome/fontawesome-svg-core
-npm install @fortawesome/free-brands-svg-icons
-npm install @fortawesome/free-regular-svg-icons
-npm install @fortawesome/free-solid-svg-icons
-npm install @fortawesome/angular-fontawesome
+# Font Awesome
+npm install @fortawesome/fontawesome-svg-core <br>
+npm install @fortawesome/free-brands-svg-icons <br>
+npm install @fortawesome/free-regular-svg-icons <br>
+npm install @fortawesome/free-solid-svg-icons <br>
+npm install @fortawesome/angular-fontawesome <br>
 <br>
 Navigate into the folder
 
