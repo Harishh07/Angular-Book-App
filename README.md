@@ -58,7 +58,7 @@ Run the application and open Postman <br><br>
 
 # Snapshots
 
-![image](https://drive.google.com/uc?export=view&id=<FILE_ID>](https://drive.google.com/file/d/1sYFH10xZ0ZPCH989elwql3N7p2Iw_V0Q/view?usp=share_link)
+![image](https://drive.google.com/uc?export=view&id=1sYFH10xZ0ZPCH989elwql3N7p2Iw_V0Q)
 
 # Built With
 Angular - The front-end framework <br>
