@@ -41,6 +41,16 @@ To deploy the app, use the following command:
 
 ng build --prod
 
+# API Testing
+Run the application and open Postman <br>
+URL for the Backend - http://localhost:3000/ <br>
+1.Display all books (GET) - http://localhost:3000/ <br>
+2. GET a book using it's BOOK ID (GET) - http://localhost:3000/id <br>
+3. Insert a new Book to the DATABASE (POST) - http://localhost:3000/ <br>
+4. Delete a book by its ID (DELETE) - http://localhost:3000/delete/id <br>
+5. Update the Book using its ID (PUT) - http://localhost:3000/update/id <br>
+6. Deleting all records from the Database (DELETE) - http://localhost:3000/del <br>
+
 # Built With
 Angular - The front-end framework <br>
 NPM - Package manager <br>
