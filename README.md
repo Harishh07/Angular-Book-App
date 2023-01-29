@@ -4,7 +4,7 @@
 
 To get started with the app, follow these simple steps:
 
-Clone the repository: git clone https://github.com/Harishh07/Angular-Book-App.git
+Clone the repository: git clone https://github.com/Harishh07/Angular-Book-App.git <br>
 Change directory: cd angular-app
 Install dependencies: npm install
 Start the development server: ng serve
