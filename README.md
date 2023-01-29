@@ -29,7 +29,7 @@ npm install -g nodemon
 # Start the development server [Front End]
 Navigate into the folder <br>
 ng serve <br>
-Visit http://localhost:4200 in your browser
+Visit http://localhost:4200 in your browser.
 
 # Start the development server [Back End]
 Navigate into the folder <br>
@@ -47,7 +47,7 @@ To deploy the app, use the following command:
 ng build --prod
 
 # API Testing
-Run the application and open Postman <br><br>
+Run the application and open Postman. <br><br>
 # URL for the Backend - http://localhost:3000/ <br>
 1.Display all books (GET) - http://localhost:3000/ <br>
 2. GET a book using it's BOOK ID (GET) - http://localhost:3000/id <br>
