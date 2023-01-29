@@ -58,7 +58,10 @@ Run the application and open Postman <br><br>
 
 # Snapshots
 
-![alt text](https://drive.google.com/file/d/1sYFH10xZ0ZPCH989elwql3N7p2Iw_V0Q/view?usp=share_link)
+<p align="center">
+  <img src="https://drive.google.com/file/d/1sYFH10xZ0ZPCH989elwql3N7p2Iw_V0Q/view?usp=share_link" width="350" title="hover text">
+  
+</p>
 
 # Built With
 Angular - The front-end framework <br>
