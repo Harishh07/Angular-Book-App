@@ -69,5 +69,5 @@ Angular - The front-end framework <br>
 NPM - Package manager <br>
 HTML <br>
 CSS <br>
-TypeScript
-
+TypeScript <br>
+JavaScript
