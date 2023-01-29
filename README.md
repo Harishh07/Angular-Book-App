@@ -17,11 +17,19 @@ npm install @fortawesome/free-regular-svg-icons <br>
 npm install @fortawesome/free-solid-svg-icons <br>
 npm install @fortawesome/angular-fontawesome <br>
 <br>
-Navigate into the folder
+
+# Nodemon
+npm install -g nodemon
 
 # Start the development server [Front End]
+Navigate into the folder <br>
 ng serve <br>
 Visit http://localhost:4200 in your browser
+
+# Start the development server [Back End]
+Navigate into the folder <br>
+Navigate into src folder - cd src <br>
+nodemon app.js
 
 # Running the tests
 To run the tests, use the following command:
