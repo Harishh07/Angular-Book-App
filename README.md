@@ -65,9 +65,9 @@ Run the application and open Postman <br><br>
 ![image](https://drive.google.com/uc?export=view&id=1u82cdXEibTNmIOfaRWTieC4mtydJyzgU) <br>
 
 # Built With
-Angular - The front-end framework <br>
-NPM - Package manager <br>
-HTML <br>
-CSS <br>
-TypeScript <br>
-JavaScript
+* Angular - The front-end framework <br>
+* NPM - Package manager <br>
+* HTML <br>
+* CSS <br>
+* TypeScript <br>
+* JavaScript
