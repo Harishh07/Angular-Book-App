@@ -6,6 +6,11 @@ To get started with the app, follow these simple steps:
 
 Clone the repository: git clone https://github.com/Harishh07/Angular-Book-App.git <br>
 Install dependencies: npm install <br>
+
+# GitHub link for downloading the Server (Back End) files
+Kindly download the server folder and proceed with the setup. <br>
+GitHub URL - https://github.com/Harishh07/Server
+
 # Dependencies
 # Bootstrap: <br>
 npm install @ng-bootstrap/ng-bootstrap <br>
