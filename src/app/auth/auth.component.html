@@ -1,0 +1,19 @@
+
+<div class="body-form">
+    <div id="tit" class="text-center">Library Management System</div>
+    <div id="title" class="text-center">LOGIN TO ACCESS</div>
+    <form #loginForm="ngForm" class="text-center lgn ng-invalid" (ngSubmit)="loginUser(loginForm.value)">
+      <div id="id">Enter User ID</div><br>
+      <input id="one" name="name" required #name="ngModel" placeholder="Enter ID" pattern="harish" ngModel><br>
+      <span *ngIf="name.invalid && name.touched">User not found!</span>
+      <br>
+      <div id="pwd">Enter Password</div><br>
+      <input id="two" name="password" required #password="ngModel" placeholder="Enter Password" pattern="123123" type="password" ngModel><br>
+      <span *ngIf="password.invalid && password.touched">Please enter a valid password!</span>
+      <br>
+      <a routerLink="home"><button [disabled]="loginForm.invalid" id="submit" (click)="nav()">SUBMIT</button></a>
+    </form>
+
+</div> 
+
+  <div class="text-center love">Made with <fa-icon [icon]="filmIcon"></fa-icon> by Harish</div>

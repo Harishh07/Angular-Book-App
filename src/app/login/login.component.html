@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    
+    <app-navbar></app-navbar> 
+    <div class="text-center name"><span id="thin">Hello</span> HARISH!</div>
+    <div class="parent">
+      <div class="firstt">  
+        
+
+        <div class="form text-center">
+
+        <div id="id"><span id="thin">Enter the</span> BOOK ID</div><br><br>
+
+
+        <form #dispform="ngForm" (ngSubmit)="displaybook(dispform.value)" class="text-left lgn">
+            
+            
+            <input name="id" required #name="ngModel" placeholder="Enter Book ID" type="number" ngModel><br>
+        <br>
+        <button [disabled]="dispform.invalid" id="submit">DISPLAY BOOK</button>
+
+        </form>
+ 
+        </div>
+           <table id="products" *ngIf="dispbook" class="text-center">
+
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+                
+                <tr *ngIf="dispbook">
+                    <td>{{dispbook.id}}</td>
+                    <td>{{dispbook.name}}</td>
+                    <td>{{dispbook.author}}</td>
+                    <td>{{dispbook.price}}</td>
+                    
+                </tr>
+            </table>
+            
+
+      </div> 
+      <div class="second">
+
+        <div class="display text-center">
+
+        <div class="dis"><span id="thin">ALL </span>BOOKS</div>
+        <div>
+            <table id="products" class="text-center">
+
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+                <tr *ngIf="allproducts.length < 1 && !isfetching">
+                <td colspan="5">No Books Available</td>
+                </tr>
+                <tr *ngIf="isfetching">
+                <td colspan="5">Loading Data....</td>
+                </tr>
+                <tr *ngFor="let prod of allproducts; let i =index">
+                    <td>{{prod.id}}</td>
+                    <td>{{prod.name}}</td>
+                    <td>{{prod.author}}</td>
+                    <td>{{prod.price}}</td>&nbsp;&nbsp;&nbsp;
+                    <td><button id="delrec" (click)="ondeleteproduct(prod.id)">DELETE BOOK</button></td>
+                </tr>
+            </table>
+           
+            <div>
+                <button id="clear" (click)="onproductfetch()">FETCH BOOKS</button>
+                <button id="clear" (click)="ondeleteallproduct(); clear();">CLEAR ALL BOOKS</button>
+            </div>
+
+        </div>
+    </div> 
+        
+      </div>
+       
+    </div> 
+
+    <div class="text-center fav">
+        <fa-icon [icon]="filmIcon"></fa-icon>
+    </div>    
+    <div class="text-center mid"><span id="thin">Insert/Update</span> Books</div>
+    
+    <div class="parentt">
+      <div class="first"> 
+      <div class="text-center insert">INSERT BOOKS</div><br>
+        <form #productsform="ngForm" (ngSubmit)="onproductcreate(productsform.value)" class="text-left lgn">
+            
+            <div id="name">Enter the Name</div><br>
+            <input name="name" id="text" required #name="ngModel" placeholder="Enter the Name" ngModel><br>
+        
+            <br>
+            <div id="author">Enter Author's name</div><br>
+            <input name="author" id="text" required #author="ngModel" placeholder="Enter Author name" ngModel><br>
+            
+            <br>
+            <div id="price">Enter price</div><br>
+            <input name="price" id="text" required type="number" #price="ngModel" placeholder="Enter the price" ngModel><br>
+            <br>
+            <button [disabled]="productsform.invalid" id="submit" (click)="alertt()">INSERT BOOK</button>&nbsp;&nbsp;&nbsp;
+            
+        
+        </form>
+       </div> 
+      <div class="secondd">
+
+        <div class="text-center insert">UPDATE BOOKS</div><br>
+        <form #productform="ngForm" (ngSubmit)="onproductupdate(productform.value)" class="text-left lgn">
+
+            <div id="id">Enter the Book ID</div><br>
+            <input name="id" id="text" required #name="ngModel" placeholder="Enter the Book ID" ngModel><br>
+        
+            <br>
+            
+            <div id="name">Enter the Name</div><br>
+            <input name="name" id="text" required #name="ngModel" placeholder="Enter the Name" ngModel><br>
+        
+            <br>
+            <div id="author">Enter Author's name</div><br>
+            <input name="author" id="text" required #author="ngModel" placeholder="Enter the Author's name" ngModel><br>
+            
+            <br>
+            <div id="price">Enter price</div><br>
+            <input name="price" id="text" type="number" required #price="ngModel" placeholder="Enter the price" ngModel><br>
+            <br><br>
+
+            <button [disabled]="productform.invalid" id="submit">UPDATE BOOK</button>
+        
+        </form>
+        
+      </div>
+       
+    </div> 
+</body>
+</html>

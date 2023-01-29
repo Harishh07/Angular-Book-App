@@ -1,0 +1,70 @@
+.body-form{
+
+    display: block;
+
+
+}
+
+.body-form-new{
+
+
+    display: hidden;
+
+
+}
+
+#submit:hover{
+    transition: 0.2 all ease;
+    padding: 10px;;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+#submit{
+
+    width: 100px;
+    padding: 10px;;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: black;
+    color:black;
+    background-color: white;
+}
+
+#id
+{
+    font-size: 35px;
+    font-weight: 450;
+}
+#pwd
+{
+    font-size: 35px;
+    font-weight: 450;
+}
+
+.lgn{
+
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #fce6a7;
+    margin-left: 380px;
+    margin-right: 380px;
+    border-radius: 20px;
+}
+
+#title
+{   margin-top: 50px;
+    font-size: 50px;
+    font-weight: 600;
+}
+#tit
+{   margin-top: 30px;
+    font-size: 50px;
+    font-weight: 600;
+}
+input{
+
+    width: 300px;
+}
