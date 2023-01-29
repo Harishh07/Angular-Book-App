@@ -57,9 +57,11 @@ Run the application and open Postman <br><br>
 6. Deleting all records from the Database (DELETE) - http://localhost:3000/del <br>
 
 # Snapshots
-
+# Login Page
 ![image](https://drive.google.com/uc?export=view&id=1sYFH10xZ0ZPCH989elwql3N7p2Iw_V0Q) <br>
+# Dash Board
 ![image](https://drive.google.com/uc?export=view&id=1ITBL1tg2soqFQhRDK5D8hALwT0GycEMj) <br>
+# Insert/Update Books
 ![image](https://drive.google.com/uc?export=view&id=1u82cdXEibTNmIOfaRWTieC4mtydJyzgU) <br>
 
 # Built With
