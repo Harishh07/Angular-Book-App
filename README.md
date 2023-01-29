@@ -56,6 +56,10 @@ Run the application and open Postman <br><br>
 5. Update the Book using its ID (PUT) - http://localhost:3000/update/id <br>
 6. Deleting all records from the Database (DELETE) - http://localhost:3000/del <br>
 
+# Snapshots
+
+![alt text](https://drive.google.com/file/d/1sYFH10xZ0ZPCH989elwql3N7p2Iw_V0Q/view?usp=share_link)
+
 # Built With
 Angular - The front-end framework <br>
 NPM - Package manager <br>
