@@ -36,6 +36,10 @@ Navigate into the folder <br>
 Navigate into src folder - cd src <br>
 nodemon app.js
 
+# Credentials for Login
+User ID: harish <br>
+Password: 123123
+
 # Running the tests
 To run the tests, use the following command:
 
